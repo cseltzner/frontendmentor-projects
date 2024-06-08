@@ -1,0 +1,14 @@
+
+
+.btn-container {
+    padding: var(--spacing-4);
+    background-color: blanchedalmond;
+}
+
+.btn-container button {
+    padding: var(--spacing-1) var(--spacing-2);
+}
+
+.btn-container button:not(:first-child) {
+    margin-left: var(--spacing-3);
+}

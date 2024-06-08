@@ -1,0 +1,5 @@
+.newsletter-page {
+    background-color: #36384e;
+    padding-top: var(--spacing-24);
+    min-height: 100%;
+}

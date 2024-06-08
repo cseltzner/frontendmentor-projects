@@ -1,0 +1,5 @@
+.rating-page {
+    background-color: #141518;
+    padding: var(--spacing-36) var(--spacing-4);
+    min-height: 100vh;
+}

@@ -1,0 +1,5 @@
+.blog-page {
+    padding-top: var(--spacing-24);
+    background-color: #f5d04e;
+    min-height: 100%;
+}

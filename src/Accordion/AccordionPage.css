@@ -1,0 +1,8 @@
+.accordion-page {
+    min-height: 80%;
+    background-image: url("../../project-files/faq-accordion-main/assets/images/background-pattern-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(238, 228, 242);
+    padding: var(--spacing-24) 0;
+}

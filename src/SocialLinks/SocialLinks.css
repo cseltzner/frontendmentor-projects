@@ -1,0 +1,48 @@
+.social-container {
+    margin: 0 auto;
+    padding: var(--spacing-8) var(--spacing-8);
+    max-width: 400px;
+    background-color: #1f1f1f;
+    border-radius: var(--border-rounded-2xl);
+    text-align: center;
+    color: #fff;
+}
+
+.photo {
+    display: inline-block;
+    border-radius: var(--border-rounded-full);
+    max-height: var(--spacing-24);
+}
+
+.name {
+    padding-top: var(--spacing-6);
+    font-size: var(--font-2xl);
+}
+
+.location {
+    padding-top: var(--spacing-1);
+    color: greenyellow;
+}
+
+.description {
+    padding-top: var(--spacing-6);
+}
+
+.link-container {
+    padding-top: var(--spacing-6);
+}
+
+.social-link {
+    display: block;
+    background-color: #333;
+    margin-top: var(--spacing-4);
+    padding: var(--spacing-3) 0;
+    border-radius: var(--border-rounded-xl);
+    transition: all 0.15s ease-in-out;
+}
+
+.social-link:hover {
+    color: #1f1f1f;
+    background-color: greenyellow;
+}
+

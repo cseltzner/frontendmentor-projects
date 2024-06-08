@@ -1,0 +1,45 @@
+.snap-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    color: #777;
+    background-color: #fff;
+    padding: var(--spacing-8);
+    border-radius: var(--border-rounded-lg);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    transform-origin: top;
+}
+
+.snap-dropdown:hover {
+    display: block;
+}
+
+.snap-nav-item:hover > .snap-dropdown {
+    display: block;
+    animation: drop-down 0.10s ease-in-out;
+}
+
+.snap-dropdown-item > a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-4);
+    text-wrap: nowrap;
+    margin-top: var(--spacing-4);
+}
+
+.snap-dropdown-item img {
+    display: inline-block;
+    width: 16px;
+}
+
+@keyframes drop-down {
+    0% {
+        transform: scaleY(0);
+    }
+
+    100% {
+        transform: scaleY(100%);
+    }
+}

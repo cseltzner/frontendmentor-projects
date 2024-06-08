@@ -1,0 +1,5 @@
+.agecalc-page {
+    min-height: 100%;
+    background-color: #f0f0f0;
+    padding-top: var(--spacing-24);
+}
